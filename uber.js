@@ -19,8 +19,9 @@ class Uber {
     }
 
    }
-let price = new Uber("25", 20, 2, 20)
+let price = new Uber(25, 20, 2, 20)
 console.log(price.getRideDetails())
+console.log(price.getPrice())
 price.setDistance(60)
 console.log(price.getRideDetails())
 console.log(price.getPrice())
